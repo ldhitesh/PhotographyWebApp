@@ -1,0 +1,4 @@
+------------nav-bar------------------ 
+background-color: #1e1f20
+font-color: white
+

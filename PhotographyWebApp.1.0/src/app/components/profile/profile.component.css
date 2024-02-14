@@ -1,0 +1,24 @@
+.profile_c{
+    border-radius: 50%;
+    width: 90px;
+    height: inherit;
+    margin: 4%;
+}
+
+@media screen and (max-width: 900px) {
+    .profile_c{
+        border-radius: 50%;
+        width: 45px;
+        height: inherit;
+        margin-top: 21%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .profile_c{
+        border-radius: 50%;
+        width: 35px;
+        height: inherit;
+        margin-top: 10%;
+    }
+}
