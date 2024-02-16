@@ -1,5 +1,6 @@
 /* ___________________________________________full width___________________________________________ */
 
+
 .nav-menu{
     display: flex;
     justify-content: space-evenly;
@@ -7,16 +8,21 @@
     background-color: #1e1f20;
     top: 0;
     width: 100%;
-    padding-top: 1%;
     z-index: 1000;
 }
-
+#nav-item-logo{
+    width: 100px;
+    height: 40px;
+    margin-bottom: -5%;
+    padding: 0;
+}
 .nav-item{
     font-size:large;
-    padding: 2%;
     color: #ffffff;
-    margin: 1%;
     list-style: none;
+    opacity: 70%;
+    margin-top: 2%;
+    margin-bottom: 2%;
 }   
 
 .nav-link:hover{
@@ -26,42 +32,43 @@
 
 /* ___________________________________________Ipad width___________________________________________ */
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 760px) {
 
-  
+#nav-item-logo{
+    width: 80px;
+    height: 30px;
+    margin-bottom: -5%;
+    padding: 0;
+}
 .nav-link{
     font-size:small;
     padding: 2%;
     color: #ffffff;
     margin: 1%;
 }  
-
-
 .nav-link:hover{
     transform:scale(1.2);
 }
-
 .nav-item-logo{
     display:block;
     text-align: center;
 }
 
-.logo_c{
-    color:#ffffff;
-    font-size: 25px;
 }
 
-.logo_c_sub{
-    color:#ffffff;
-    font-size: 20px;
-    margin-top: -10px;
-}
-
-.logo_c_caption{
-    color:#ffffff;
-    font-size: 10px;
-}
-
+@media screen and (max-width: 512px) {
+    .nav-link{
+        font-size:x-small;
+        padding: 2%;
+        color: #ffffff;
+        margin: 1%;
+    }  
+    #nav-item-logo{
+        width: 60px;
+        height: 20px;
+        margin-bottom: -5%;
+        padding: 0;
+    }
 }
 
 
