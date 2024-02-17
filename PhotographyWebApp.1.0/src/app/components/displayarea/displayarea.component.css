@@ -1,0 +1,204 @@
+
+.img-slider{
+    display:flex;
+    justify-content: center;
+    margin-bottom: 15%;
+    height: 750px;
+}
+
+.img-side{
+  width: 300px; height: 400px; object-fit: cover;
+  margin-top: 50%;
+  margin-bottom: 50%;
+}
+.img-center{
+    width: 400px; height: 550px; object-fit: cover;
+    margin-top: 20%;
+    margin-bottom: 25%;
+  }
+
+.slide-transition{
+    transition:2s ease-in-out;
+    transition-delay: 2s;
+}
+
+.slider-box{
+    margin: 1px;
+}
+.slider-box:hover{
+    transition: none;
+    .img-side{
+        width: 350px;
+        height: 450px;
+        margin-top: 35%;
+        box-shadow: 10px 10px 60px black;
+    }
+
+    .img-center{
+        width: 450px;
+        height: 600px; 
+        margin-top: 14%;
+        box-shadow: 10px 10px 60px black;
+    }
+
+}
+.carousel-transition{
+    transition: transform 2s ease-out , opacity 1s ease;
+}
+
+
+@media screen and (max-width:1024px){
+    .img-slider{
+        display:flex;
+        justify-content: center;
+        margin-bottom: 15%;
+        height: 600px;
+    }
+    
+    .img-side{
+      width: 250px; height: 350px; object-fit: cover;
+      margin-top: 50%;
+      margin-bottom: 50%;
+    }
+    .img-center{
+        width: 350px; height: 450px; object-fit: cover;
+        margin-top: 20%;
+        margin-bottom: 25%;
+      }
+  
+    .slider-box:hover{
+        transition: none;
+        .img-side{
+            width: 300px;
+            height: 400px;
+            margin-top: 30%;
+            box-shadow: 10px 10px 60px black;
+        }
+    
+        .img-center{
+            width: 400px;
+            height: 500px; 
+            margin-top: 16%;
+            box-shadow: 10px 10px 60px black;
+        }
+    
+    }
+}
+
+
+
+@media screen and (max-width:1020px){
+    .img-slider{
+        display:flex;
+        justify-content: center;
+        margin-bottom: 15%;
+        height: 400px;
+    }
+    
+    .img-side{
+      width:150px; height: 200px; object-fit: cover;
+      margin-top: 62%;
+      margin-bottom: 50%;
+    }
+    .img-center{
+        width:200px; height: 250px; object-fit: cover;
+        margin-top: 40%;
+        margin-bottom: 25%;
+      }
+  
+    .slider-box:hover{
+        transition: none;
+        .img-side{
+            width: 170px;
+            height: 220px;
+            margin-top: 54%;
+            box-shadow: 10px 10px 60px black;
+        }
+    
+        .img-center{
+            width: 220px;
+            height: 270px; 
+            margin-top:30%;
+            box-shadow: 10px 10px 60px black;
+        }
+    
+    }
+}
+
+
+@media screen and (max-width:592px){
+    .img-slider{
+        display:flex;
+        justify-content: center;
+        margin-bottom: 15%;
+        height: 300px;
+    }
+    
+    .img-side{
+      width:100px; height: 150px; object-fit: cover;
+      margin-top: 100%;
+      margin-bottom: 50%;
+    }
+    .img-center{
+        width:130px; height: 180px; object-fit: cover;
+        margin-top: 66%;
+        margin-bottom: 25%;
+      }
+  
+    .slider-box:hover{
+        transition: none;
+        .img-side{
+            width: 120px;
+            height: 170px;
+            margin-top: 75%;
+            box-shadow: 1px 1px 20px black;
+        }
+    
+        .img-center{
+            width: 150px;
+            height: 200px; 
+            margin-top: 48%;
+            box-shadow: 1px 1px 20px black;
+        }
+    
+    }
+}
+
+
+@media screen and (max-width:444px){
+    .img-slider{
+        display:flex;
+        justify-content: center;
+        margin-bottom: 15%;
+        height: 230px;
+    }
+    
+    .img-side{
+      width:60px; height: 90px; object-fit: cover;
+      margin-top: 160%;
+      margin-bottom: 50%;
+    }
+    .img-center{
+        width:90px; height: 120px; object-fit: cover;
+        margin-top: 96%;
+        margin-bottom: 25%;
+      }
+  
+    .slider-box:hover{
+        transition: none;
+        .img-side{
+            width: 80px;
+            height: 110px;
+            margin-top: 115%;
+            box-shadow: 1px 1px 20px black;
+        }
+    
+        .img-center{
+            width: 110px;
+            height: 140px; 
+            margin-top: 68%;
+            box-shadow: 1px 1px 20px black;
+        }
+    
+    }
+}

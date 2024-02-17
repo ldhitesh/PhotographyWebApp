@@ -8,6 +8,8 @@ import { ProfileComponent } from './components/profile/profile.component';
 import { LinkhoverDirective } from './directives/linkhover.directive';
 import { LogoComponent } from './components/logo/logo.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { QuoteGridComponent } from './components/quote-grid/quote-grid.component';
+import { DisplayareaComponent } from './components/displayarea/displayarea.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +19,9 @@ import { FooterComponent } from './components/footer/footer.component';
     ProfileComponent,
     LinkhoverDirective,
     LogoComponent,
-    FooterComponent
+    FooterComponent,
+    QuoteGridComponent,
+    DisplayareaComponent
   ],
   imports: [
     BrowserModule,
