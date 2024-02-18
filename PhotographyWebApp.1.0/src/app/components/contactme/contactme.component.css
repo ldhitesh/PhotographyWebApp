@@ -27,22 +27,15 @@
 
     .contact-label{
         font-size: 20px;
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         margin-bottom: 0%;
       }
     
       .contact-desc{
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         font-size: 10px;
       }
     
       .contact-btn{
-        padding-left: 2%;
-        padding-right: 2%;
         height: 30px;
-        background-color: rgb(39, 39, 40);
-        border: none;
-        color:white;
         font-size: x-small;
       }
   }
@@ -120,47 +113,25 @@
     .contact-bg-img{
         width: 400px;
         height: 500px;
-        object-fit: cover;
-        -webkit-transform: scaleX(-1);
-        transform: scaleX(-1);
-        position: absolute;
-        z-index: -10;
         margin-top: 2%;
         margin-left: 8%;
     }
     
     .contact-form-content{
-        position: absolute;
-        z-index: 10;
-        background-color: rgb(0, 0, 0); 
         width: 400px;
         height: 500px;
-        align-items: flex-start;
         margin-top: 2%;
         margin-left: 8%;
-        opacity: 70%;
-    }
-    
-    .contact-form-content{
-        display: block;
-        text-align: center;
-        padding-top: 5%;
-        padding-bottom: 5%;
     }
     
     .contact-form-content input{
         height: 8%;
         width: 70%;
-        border:none;
         margin: 2%;
-        background-color: rgb(238, 224, 216);
         font-size: 12px;
       }
     .contact-form-content label{
         font-size: 12px;
-        color: white;
-        font-weight: bolder;
-        font-family: Georgia, 'Times New Roman', Times, serif;
     }
     
     #contact-message{
@@ -171,9 +142,6 @@
         margin: 5%;
         width: 80px;
         height: 40px;
-        color: black;
-        font-weight: 800;
-        background-color: rgb(242, 159, 5);
     }
     
 }
@@ -186,47 +154,25 @@
     .contact-bg-img{
         width: 300px;
         height: 400px;
-        object-fit: cover;
-        -webkit-transform: scaleX(-1);
-        transform: scaleX(-1);
-        position: absolute;
-        z-index: -10;
         margin-top: 2%;
         margin-left: 22%;
     }
     
     .contact-form-content{
-        position: absolute;
-        z-index: 10;
-        background-color: rgb(0, 0, 0); 
         width: 300px;
         height: 400px;
-        align-items: flex-start;
         margin-top: 2%;
         margin-left: 22%;
-        opacity: 70%;
-    }
-    
-    .contact-form-content{
-        display: block;
-        text-align: center;
-        padding-top: 5%;
-        padding-bottom: 5%;
     }
     
     .contact-form-content input{
         height: 8%;
         width: 70%;
-        border:none;
         margin: 2%;
-        background-color: rgb(238, 224, 216);
         font-size: 12px;
       }
     .contact-form-content label{
         font-size: 12px;
-        color: white;
-        font-weight: bolder;
-        font-family: Georgia, 'Times New Roman', Times, serif;
     }
     
     #contact-message{
@@ -237,9 +183,6 @@
         margin: 5%;
         width: 80px;
         height: 40px;
-        color: black;
-        font-weight: 800;
-        background-color: rgb(242, 159, 5);
     }
     
 }
@@ -252,47 +195,24 @@
     .contact-bg-img{
         width: 200px;
         height: 300px;
-        object-fit: cover;
-        -webkit-transform: scaleX(-1);
-        transform: scaleX(-1);
-        position: absolute;
-        z-index: -10;
         margin-top: 10%;
         margin-left: 25%;
     }
     
     .contact-form-content{
-        position: absolute;
-        z-index: 10;
-        background-color: rgb(0, 0, 0); 
         width: 200px;
         height: 300px;
-        align-items: flex-start;
         margin-top: 10%;
         margin-left: 25%;
-        opacity: 70%;
     }
-    
-    .contact-form-content{
-        display: block;
-        text-align: center;
-        padding-top: 5%;
-        padding-bottom: 5%;
-    }
-    
     .contact-form-content input{
         height: 8%;
         width: 70%;
-        border:none;
         margin: 1%;
-        background-color: rgb(238, 224, 216);
         font-size: 8px;
       }
     .contact-form-content label{
         font-size: 8px;
-        color: white;
-        font-weight: bolder;
-        font-family: Georgia, 'Times New Roman', Times, serif;
     }
     
     #contact-message{
@@ -303,9 +223,6 @@
         margin: 5%;
         width: 60px;
         height: 30px;
-        color: black;
-        font-weight: 800;
-        background-color: rgb(242, 159, 5);
         font-size: 10px;
     }
     
@@ -319,47 +236,24 @@
     .contact-bg-img{
         width: 200px;
         height: 300px;
-        object-fit: cover;
-        -webkit-transform: scaleX(-1);
-        transform: scaleX(-1);
-        position: absolute;
-        z-index: -10;
         margin-top: 10%;
         margin-left: 25%;
     }
     
     .contact-form-content{
-        position: absolute;
-        z-index: 10;
-        background-color: rgb(0, 0, 0); 
         width: 200px;
         height: 300px;
-        align-items: flex-start;
         margin-top: 10%;
         margin-left: 25%;
-        opacity: 70%;
     }
-    
-    .contact-form-content{
-        display: block;
-        text-align: center;
-        padding-top: 5%;
-        padding-bottom: 5%;
-    }
-    
     .contact-form-content input{
         height: 8%;
         width: 70%;
-        border:none;
         margin: 1%;
-        background-color: rgb(238, 224, 216);
         font-size: 8px;
       }
     .contact-form-content label{
         font-size: 8px;
-        color: white;
-        font-weight: bolder;
-        font-family: Georgia, 'Times New Roman', Times, serif;
     }
     
     #contact-message{
@@ -370,9 +264,6 @@
         margin: 5%;
         width: 60px;
         height: 30px;
-        color: black;
-        font-weight: 800;
-        background-color: rgb(242, 159, 5);
         font-size: 10px;
     }
     
@@ -386,47 +277,25 @@
     .contact-bg-img{
         width: 200px;
         height: 300px;
-        object-fit: cover;
-        -webkit-transform: scaleX(-1);
-        transform: scaleX(-1);
-        position: absolute;
-        z-index: -10;
         margin-top: 10%;
         margin-left: 20%;
     }
     
     .contact-form-content{
-        position: absolute;
-        z-index: 10;
-        background-color: rgb(0, 0, 0); 
         width: 200px;
         height: 300px;
-        align-items: flex-start;
         margin-top: 10%;
         margin-left: 20%;
-        opacity: 70%;
-    }
-    
-    .contact-form-content{
-        display: block;
-        text-align: center;
-        padding-top: 5%;
-        padding-bottom: 5%;
     }
     
     .contact-form-content input{
         height: 8%;
         width: 70%;
-        border:none;
         margin: 1%;
-        background-color: rgb(238, 224, 216);
         font-size: 8px;
       }
     .contact-form-content label{
         font-size: 8px;
-        color: white;
-        font-weight: bolder;
-        font-family: Georgia, 'Times New Roman', Times, serif;
     }
     
     #contact-message{
@@ -437,9 +306,6 @@
         margin: 5%;
         width: 60px;
         height: 30px;
-        color: black;
-        font-weight: 800;
-        background-color: rgb(242, 159, 5);
         font-size: 10px;
     }
     
