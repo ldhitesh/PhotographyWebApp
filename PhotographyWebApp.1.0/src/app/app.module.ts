@@ -10,6 +10,8 @@ import { LogoComponent } from './components/logo/logo.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { QuoteGridComponent } from './components/quote-grid/quote-grid.component';
 import { DisplayareaComponent } from './components/displayarea/displayarea.component';
+import { WelcomeIntroComponent } from './components/welcome-intro/welcome-intro.component';
+import { ImageGridComponent } from './components/image-grid/image-grid.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +23,9 @@ import { DisplayareaComponent } from './components/displayarea/displayarea.compo
     LogoComponent,
     FooterComponent,
     QuoteGridComponent,
-    DisplayareaComponent
+    DisplayareaComponent,
+    WelcomeIntroComponent,
+    ImageGridComponent
   ],
   imports: [
     BrowserModule,

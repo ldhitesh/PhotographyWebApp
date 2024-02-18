@@ -1,6 +1,6 @@
 .quote-container{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     opacity: 80%;
     background-color: rgb(255, 255, 255);
   }
@@ -105,14 +105,18 @@
 
 
   @media screen and (max-width: 552px) {
+    .quote-container{
+      opacity: 80%;
+      background-color: rgb(255, 255, 255);
+    }
     .quote-box{
-      width: 80px;
-      height: 80px;  
-      margin: 14%;
+      width: 100px;
+      height: 100px;  
+      margin: 3%;
     }
 
     .quote-text{
-      width: 70px;
+      width: 90px;
       height: 40px;
       font-size: 4px;
     }
@@ -121,15 +125,52 @@
       font-size:6px;
     }
     .quote-box:hover{
-      width: 80px;
-      height: 90px;
-      margin: 14%;
+      width: 100px;
+      height: 100px;
+      margin: 8%;
 
     }
     .quote-outer-box{
       width: 100px;
       height: 120px;
       margin-bottom: 5%;
+      margin:3%;
+    }
+  
+  }
+
+
+  @media screen and (max-width: 320px) {
+    .quote-container{
+      opacity: 80%;
+      background-color: rgb(255, 255, 255);
+    }
+    .quote-box{
+      width: 75px;
+      height: 80px;  
+      margin: 3%;
+    }
+
+    .quote-text{
+      width: 65px;
+      height: 40px;
+      font-size: 4px;
+    }
+    .quote-owner h4{
+      padding-top: 2%;
+      font-size:6px;
+    }
+    .quote-box:hover{
+      width: 75px;
+      height: 80px;
+      margin: 4%;
+
+    }
+    .quote-outer-box{
+      width: 100px;
+      height: 120px;
+      margin-bottom: 5%;
+      margin:3%;
     }
   
   }

@@ -62,7 +62,9 @@ width: 200px;
   opacity: 70%;
 }
 
-
+.carousel-transition{
+  transition: transform 3s ease-out , opacity 1s ease;
+}
 
 /* ----------------------------------ipad width----------------------------- */
 

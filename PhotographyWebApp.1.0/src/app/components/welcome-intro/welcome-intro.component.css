@@ -1,0 +1,275 @@
+.wel-container{
+    padding:0% 5% 5% 5%;
+  }
+
+.home-header-sep{
+  border: 3%;
+  height: 1px;;
+  background-color: rgb(80, 80, 80);
+  margin-left:5%;
+  margin-right: 5%;
+  margin-bottom: 5%;
+}
+
+.welcome{
+    font-family:MyFont;
+    font-size: 80px;
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 1%;
+    color: rgb(0, 0, 0);
+    margin-top: -2%;
+  }
+
+.welcome-header{
+    font-family:fantasy;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    color: rgb(0, 0, 0);
+}
+  
+.welcome-quote{
+    display: block;
+    text-align: center;
+    font-family:fantasy;
+    font-size: 15px;
+    text-align: center;
+    margin-top: -2%;
+    color: rgb(0, 0, 0);
+    opacity: 80%;
+}
+  
+.welcome-box{
+  display:flex;
+  justify-content: center;
+  background-color: rgb(36, 36, 36);
+  height: 400px;
+}
+  
+  .wel-img{
+    width: 400px; height: 300px; object-fit: cover;
+    padding: 2%;
+    opacity: 85%;
+    margin-top: 12%;
+  }
+
+
+  @media screen and (max-width:1400px) {
+     
+  .wel-img{
+    width: 300px; height: 250px; object-fit: cover;
+    padding: 2%;
+    opacity: 85%;
+    margin-top: 12%;
+  }
+
+  .welcome-box{
+    display:flex;
+    justify-content: center;
+    background-color: rgb(36, 36, 36);
+    height: 300px;
+  }
+  }
+  
+
+  @media screen and (max-width:1110px) {
+     
+    .wel-img{
+      width: 250px; height: 200px; object-fit: cover;
+      padding: 2%;
+      opacity: 85%;
+      margin-top: 12%;
+    }
+  
+    .welcome-box{
+      display:flex;
+      justify-content: center;
+      background-color: rgb(36, 36, 36);
+      height: 250px;
+    }
+
+
+    .welcome{
+      font-family:MyFont;
+      font-size: 75px;
+      font-weight: 700;
+      padding-bottom: 1%;
+      margin-top: 1%;
+    }
+
+    .welcome-header{
+      font-family:fantasy;
+      font-size: 20px;
+      margin-top: 1%;
+      margin-bottom: 2%;
+    }
+
+    .welcome-quote{
+      font-family:fantasy;
+      font-size: 10px;
+      margin-top: -2%;
+    }
+    }
+
+    @media screen and (max-width:900px) {
+     
+      .wel-img{
+        width: 200px; height: 150px; object-fit: cover;
+        padding: 2%;
+        opacity: 85%;
+        margin-top: 12%;
+      }
+    
+      .welcome-box{
+        display:flex;
+        justify-content: center;
+        background-color: rgb(36, 36, 36);
+        height: 200px;
+        margin-left:6%;
+        margin-right:6%;
+      }
+
+      .welcome{
+        font-family:MyFont;
+        font-size: 65px;
+        font-weight: 700;
+        padding-bottom: 1%;
+        margin-top: 1%;
+      }
+  
+      .welcome-header{
+        font-family:fantasy;
+        font-size: 18px;
+        margin-top: 1%;
+        margin-bottom: 2%;
+      }
+  
+      .welcome-quote{
+        font-family:fantasy;
+        font-size: 8px;
+        margin-top: -2%;
+      }
+      }
+
+      @media screen and (max-width:818px) {
+     
+        .wel-img{
+          width: 150px; height: 110px; object-fit: cover;
+          padding: 2%;
+          opacity: 85%;
+          margin-top: 12%;
+        }
+      
+        .welcome-box{
+          display:flex;
+          justify-content: center;
+          background-color: rgb(36, 36, 36);
+          height: 150px;
+        }
+        }
+
+
+      @media screen and (max-width:618px) {
+     
+        .wel-img{
+          width: 100px; height: 85px; object-fit: cover;
+          padding: 2%;
+          opacity: 85%;
+          margin-top: 12%;
+        }
+      
+        .welcome-box{
+          display:flex;
+          justify-content: center;
+          background-color: rgb(36, 36, 36);
+          height: 110px;
+        }
+
+        .welcome{
+          font-family:MyFont;
+          font-size: 50px;
+          font-weight: 700;
+          padding-bottom: 1%;
+          margin-top: 8%;
+        }
+    
+        .welcome-header{
+          font-family:fantasy;
+          font-size: 11px;
+          margin-top: 1%;
+          margin-bottom: 2%;
+        }
+    
+        .welcome-quote{
+          font-family:fantasy;
+          font-size: 8px;
+          margin-top: -2%;
+        }
+        }
+
+
+      @media screen and (max-width:438px) {
+     
+        .wel-img{
+          width: 70px; height: 60px; object-fit: cover;
+          padding: 2%;
+          opacity: 85%;
+          margin-top: 15%;
+        }
+      
+        .welcome-box{
+          display:flex;
+          justify-content: center;
+          background-color: rgb(36, 36, 36);
+          height: 80px;
+        }
+
+
+        .welcome{
+          font-family:MyFont;
+          font-size: 35px;
+          font-weight: 700;
+          padding-bottom: 1%;
+          margin-top: 15%;
+        }
+    
+        .welcome-header{
+          font-family:fantasy;
+          font-size: 8px;
+          margin-top: 1%;
+          margin-bottom: 2%;
+        }
+    
+        .welcome-quote{
+          font-family:fantasy;
+          font-size: 6px;
+          margin-top: -2%;
+        }
+        }
+
+
+@media screen and (max-width:354px) {
+
+  .welcome{
+    font-family:MyFont;
+    font-size: 30px;
+    font-weight: 700;
+    padding-bottom: 1%;
+    margin-top: 21%;
+  }
+
+  .welcome-header{
+    font-family:fantasy;
+    font-size: 7px;
+    margin-top: 1%;
+    margin-bottom: 2%;
+  }
+
+  .welcome-quote{
+    font-family:fantasy;
+    font-size: 4px;
+    margin-top: -2%;
+  }
+  }

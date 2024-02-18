@@ -1,0 +1,135 @@
+
+.welcome-box{
+  display:flex;
+  justify-content: center;
+  background-color: rgb(36, 36, 36);
+  height: 400px;
+  margin-bottom: 5%;
+}
+  
+  .wel-img{
+    width: 400px; height: 300px; object-fit: cover;
+    padding: 2%;
+    opacity: 85%;
+    margin-top: 12%;
+  }
+
+
+  @media screen and (max-width:1400px) {
+     
+  .wel-img{
+    width: 300px; height: 250px; object-fit: cover;
+    padding: 2%;
+    opacity: 85%;
+    margin-top: 12%;
+  }
+
+  .welcome-box{
+    display:flex;
+    justify-content: center;
+    background-color: rgb(36, 36, 36);
+    height: 300px;
+  }
+  }
+  
+
+  @media screen and (max-width:1110px) {
+     
+    .wel-img{
+      width: 250px; height: 200px; object-fit: cover;
+      padding: 2%;
+      opacity: 85%;
+      margin-top: 12%;
+    }
+  
+    .welcome-box{
+      display:flex;
+      justify-content: center;
+      background-color: rgb(36, 36, 36);
+      height: 250px;
+    }
+    }
+
+    @media screen and (max-width:900px) {
+     
+      .wel-img{
+        width: 200px; height: 150px; object-fit: cover;
+        padding: 2%;
+        opacity: 85%;
+        margin-top: 12%;
+      }
+    
+      .welcome-box{
+        display:flex;
+        justify-content: center;
+        background-color: rgb(36, 36, 36);
+        height: 200px;
+        margin-left:6%;
+        margin-right:6%;
+      }
+      }
+
+      @media screen and (max-width:818px) {
+     
+        .wel-img{
+          width: 150px; height: 110px; object-fit: cover;
+          padding: 2%;
+          opacity: 85%;
+          margin-top: 12%;
+        }
+      
+        .welcome-box{
+          display:flex;
+          justify-content: center;
+          background-color: rgb(36, 36, 36);
+          height: 150px;
+        }
+        }
+
+
+      @media screen and (max-width:618px) {
+     
+        .wel-img{
+          width: 100px; height: 85px; object-fit: cover;
+          padding: 2%;
+          opacity: 85%;
+          margin-top: 12%;
+        }
+      
+        .welcome-box{
+          display:flex;
+          justify-content: center;
+          background-color: rgb(36, 36, 36);
+          height: 110px;
+        }
+        }
+
+
+      @media screen and (max-width:438px) {
+     
+        .wel-img{
+          width: 70px; height: 60px; object-fit: cover;
+          padding: 2%;
+          opacity: 85%;
+          margin-top: 15%;
+        }
+      
+        .welcome-box{
+          display:flex;
+          justify-content: center;
+          background-color: rgb(36, 36, 36);
+          height: 80px;
+        }
+        }
+
+
+@media screen and (max-width:354px) {
+
+  .welcome{
+    font-family:MyFont;
+    font-size: 30px;
+    font-weight: 700;
+    padding-bottom: 1%;
+    margin-top: 21%;
+  }
+  }
