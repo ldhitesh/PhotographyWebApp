@@ -1,0 +1,31 @@
+<div class="contact-items">
+    <p class="contact-label">Contact Me</p>
+    <p class="contact-desc">Do you have any questions or just want to say hi ?</p>
+    <button class="contact-btn" (click)="openScrollableContent(contact_comp)"> Say Hello !</button>
+</div>
+
+
+<ng-template class="border-0" #contact_comp let-modal>
+    <img class="contact-bg-img" src="../../assets/images/pic4.png" >
+    <form #content = "ngForm" (ngSubmit)="send()">
+        <div class="contact-form-content">
+            <label for="fullname">Full Name</label>
+            <br>
+            <input type = "text" name = "fullname" placeholder = "Full Name" [(ngModel)]="contactFormData.fullname">
+            <br>
+            <label for="email">Email</label>
+            <br>
+            <input type = "text" name = "email" placeholder = "Email" [(ngModel)]="contactFormData.emailid">
+            <br>
+            <label for="subject">Subject</label>
+            <br>
+            <input type = "text" name = "subject" placeholder = "Subject" [(ngModel)]="contactFormData.subject">
+            <br>
+            <label for="message">Message</label>
+            <br>
+            <input id="contact-message"type = "text" name = "message" placeholder = "Message" [(ngModel)]="contactFormData.message">
+            <br>
+            <button type="submit"> Send</button>
+        </div>
+    </form>
+</ng-template > 

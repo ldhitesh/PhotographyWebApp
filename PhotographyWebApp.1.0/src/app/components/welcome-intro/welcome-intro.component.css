@@ -1,3 +1,10 @@
+img{
+  width: 50px;
+  height: 50px;
+  margin-top: -45%;
+  margin-bottom: -20%;
+}
+
 .wel-container{
     padding:0% 5% 5% 5%;
   }
@@ -17,7 +24,7 @@
     font-weight: 700;
     text-align: center;
     padding-bottom: 1%;
-    color: rgb(0, 0, 0);
+    color: rgb(57, 57, 57);
     margin-top: -2%;
   }
 
@@ -27,7 +34,9 @@
     text-align: center;
     margin-top: 1%;
     margin-bottom: 2%;
-    color: rgb(0, 0, 0);
+    color: rgb(57, 57, 57);
+    display: flex;
+    justify-content: center;
 }
   
 .welcome-quote{
@@ -37,7 +46,7 @@
     font-size: 15px;
     text-align: center;
     margin-top: -2%;
-    color: rgb(0, 0, 0);
+    color: rgb(57, 57, 57);
     opacity: 80%;
 }
   
@@ -48,22 +57,10 @@
   height: 400px;
 }
   
-  .wel-img{
-    width: 400px; height: 300px; object-fit: cover;
-    padding: 2%;
-    opacity: 85%;
-    margin-top: 12%;
-  }
 
 
   @media screen and (max-width:1400px) {
      
-  .wel-img{
-    width: 300px; height: 250px; object-fit: cover;
-    padding: 2%;
-    opacity: 85%;
-    margin-top: 12%;
-  }
 
   .welcome-box{
     display:flex;
@@ -75,14 +72,11 @@
   
 
   @media screen and (max-width:1110px) {
-     
-    .wel-img{
-      width: 250px; height: 200px; object-fit: cover;
-      padding: 2%;
-      opacity: 85%;
-      margin-top: 12%;
+    img{
+      width: 40px; height: 40px; 
+      margin-bottom: -15%;
     }
-  
+
     .welcome-box{
       display:flex;
       justify-content: center;
@@ -114,6 +108,10 @@
     }
 
     @media screen and (max-width:900px) {
+      img{
+        width: 40px; height: 40px; 
+        margin-bottom: -15%;
+      }
      
       .wel-img{
         width: 200px; height: 150px; object-fit: cover;
@@ -154,14 +152,13 @@
       }
 
       @media screen and (max-width:818px) {
-     
-        .wel-img{
-          width: 150px; height: 110px; object-fit: cover;
-          padding: 2%;
-          opacity: 85%;
-          margin-top: 12%;
-        }
       
+        img{
+          width: 30px; height: 30px; 
+          margin-bottom: -10%;
+        }
+
+
         .welcome-box{
           display:flex;
           justify-content: center;
@@ -173,13 +170,11 @@
 
       @media screen and (max-width:618px) {
      
-        .wel-img{
-          width: 100px; height: 85px; object-fit: cover;
-          padding: 2%;
-          opacity: 85%;
-          margin-top: 12%;
+        img{
+          width: 20px; height: 20px; 
+          margin-bottom: -10%;
+
         }
-      
         .welcome-box{
           display:flex;
           justify-content: center;

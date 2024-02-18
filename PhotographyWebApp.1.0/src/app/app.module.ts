@@ -14,6 +14,8 @@ import { WelcomeIntroComponent } from './components/welcome-intro/welcome-intro.
 import { ImageGridComponent } from './components/image-grid/image-grid.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { FormsModule } from '@angular/forms';
+import { TeamIntroComponent } from './components/team-intro/team-intro.component';
+import { ContactmeComponent } from './components/contactme/contactme.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +29,9 @@ import { FormsModule } from '@angular/forms';
     QuoteGridComponent,
     DisplayareaComponent,
     WelcomeIntroComponent,
-    ImageGridComponent
+    ImageGridComponent,
+    TeamIntroComponent,
+    ContactmeComponent
     
   ],
   imports: [
