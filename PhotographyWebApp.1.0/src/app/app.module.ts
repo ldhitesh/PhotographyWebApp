@@ -12,6 +12,8 @@ import { QuoteGridComponent } from './components/quote-grid/quote-grid.component
 import { DisplayareaComponent } from './components/displayarea/displayarea.component';
 import { WelcomeIntroComponent } from './components/welcome-intro/welcome-intro.component';
 import { ImageGridComponent } from './components/image-grid/image-grid.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -26,11 +28,14 @@ import { ImageGridComponent } from './components/image-grid/image-grid.component
     DisplayareaComponent,
     WelcomeIntroComponent,
     ImageGridComponent
+    
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HammerModule
+    HammerModule,
+    NgbModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
